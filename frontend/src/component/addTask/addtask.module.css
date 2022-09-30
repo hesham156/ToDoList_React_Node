@@ -1,0 +1,42 @@
+.addTask {
+  width: 50px;
+  height: 50px;
+  bottom: 100px;
+  left: 100px;
+  border-radius: 50%;
+}
+
+.addTask div {
+  background: var(--primary-color);
+}
+.click,
+.addTask {
+  background: var(--secndry-color);
+  transition: 0.3s;
+  overflow: hidden;
+}
+.click {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  left: 0;
+  bottom: 0;
+}
+.btnclick {
+  top: 100px;
+  right: 100px;
+  padding: 0 !important;
+  transform: rotate(45deg);
+}
+.endat {
+  width: 253px;
+  border: 1px solid var(--primary-color);
+  align-items: center;
+}
+.endat input,
+.endat select {
+  width: 50%;
+  border: 0;
+  margin: 0;
+  outline: none;
+}

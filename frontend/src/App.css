@@ -1,0 +1,128 @@
+:root {
+  --color: aliceblue;
+  --primary-color: #21b07d;
+  --secndry-color: #abd9c8;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: var(--color);
+}
+ul {
+  list-style: none;
+}
+select {
+  width: 250px;
+  height: 41px;
+  border: 1px solid var(--primary-color);
+  background: none;
+  border-radius: 3px;
+  margin: 10px;
+  color: var(--primary-color);
+}
+.shadow {
+  padding: 93px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px var(--primary-color);
+}
+.justify-content-start {
+  justify-content: start !important;
+}
+.justify-content-end {
+  justify-content: end !important;
+}
+.justify-content-center {
+  justify-content: center !important;
+}
+.align-items-start {
+  align-items: start !important;
+}
+.align-items-end {
+  align-items: flex-end !important;
+}
+.align-items-center {
+  align-items: center !important;
+}
+.flex-direction-column {
+  flex-direction: column !important;
+}
+.flex-direction-row {
+  flex-direction: row !important;
+}
+
+.container {
+  width: 90%;
+  padding: 0 20px 0 20px;
+  height: auto;
+}
+.global {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--color);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.position-absolute {
+  position: absolute;
+}
+.App {
+  /* text-align: center; */
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,52 @@
+.tasks {
+  height: calc(100vh - 60px);
+}
+.tasks .task {
+  height: 500px;
+}
+.task div {
+  height: 60px;
+  padding: 10px 0 10px 0;
+  margin: 5px 0 5px 0;
+  background-color: var(--secndry-color);
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px 0px black;
+  color: black;
+}
+.taskTitle,
+.taskInfo {
+  height: 100%;
+}
+.taskInfo {
+  width: 80%;
+}
+.taskTitle {
+  width: 20%;
+}
+table,
+th,
+td {
+  /* border: 1px solid black; */
+  text-align: center;
+}
+
+table {
+  background: var(--primary-color);
+  margin-top: 82px;
+}
+td {
+  background: var(--secndry-color);
+  position: relative;
+  height: 40px;
+}
+td span {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background: #9bffdb;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 8px #099764;
+}

@@ -1,0 +1,22 @@
+.input {
+  padding: 5px;
+  width: 250px;
+  height: 38px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  margin: 10px;
+  background: none;
+  outline: none;
+}
+.input span,
+.input input {
+  width: 50%;
+  cursor: pointer;
+}
+.input input {
+  background: none;
+  border: 0;
+  outline: none;
+}
