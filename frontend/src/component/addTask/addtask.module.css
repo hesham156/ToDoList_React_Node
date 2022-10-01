@@ -23,8 +23,9 @@
   bottom: 0;
 }
 .btnclick {
-  top: 100px;
-  right: 100px;
+  top: 50px;
+  right: 50px;
+  background: #df4343;
   padding: 0 !important;
   transform: rotate(45deg);
 }

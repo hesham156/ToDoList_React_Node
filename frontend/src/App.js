@@ -1,14 +1,17 @@
 import "./App.css";
-import AddTask from "./component/addTask/AddTask";
-import NaveBar from "./component/naveBar/NaveBar";
-import Taskes from "./component/taskes/Taskes";
 
+import { Route, Routers, Routes } from "react-router-dom";
+import Home from "./pages/home/Home";
+import Login from "./pages/login/Login";
+import Reg from "./pages/singup/Reg";
 function App() {
   return (
     <div className="App">
-      <NaveBar />
-      <Taskes />
-      <AddTask />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Reg />} />
+      </Routes>
     </div>
   );
 }
